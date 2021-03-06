@@ -53,7 +53,7 @@ def month_profit_trace(profit, reach, make_figs=True):
         print('Input of Data incorrect')
 
 
-profit= np.array([10000, 800, 550, 100])    ## You can change the values to make different scenarios
-reach = np.array([1000, 500, 10, -100])             ## You can change the values to make different scenarios
+profit= np.array([100, 400, 550, 1000])    
+reach = np.array([-100, 10, 100, 500])             
 
 month_profit_trace(profit, reach, make_figs=True)
